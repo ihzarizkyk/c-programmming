@@ -1,0 +1,167 @@
+//Konstanta
+//sebuah variabel yang tidak bisa berubah nilainya selama program berjalan
+//dengan kata lain nilainya tidak dapat diubah
+//ada 2 cara untuk mendefinisikan konstanta
+//Pertama, #define
+//Kedua, const
+
+//Cara Pertama
+// #include <stdio.h>
+
+// #define PANJANG 30
+// #define LEBAR 20
+
+// int main(void){
+// 	int hitung;
+
+// 	printf("Hasil Hitung nilai : %d", hitung = PANJANG*LEBAR);
+// 	printf("\n");
+// }
+
+//Cara Kedua
+
+// #include <stdio.h>
+
+// int main(void){
+// 	const int PANJANG = 10;
+// 	const int LEBAR = 20;
+// 	int hitung;
+
+// 	printf("Hasil Perhitungan : %d", hitung = PANJANG*LEBAR);
+// 	printf("\n");
+// }
+
+/*1.cara penulisan const type data variabel name = value;
+2.cara penulisan #define variable name value*/
+
+// perbedaan : 
+
+// #define ditaruh diatas program utama yaitu int main()
+// const ditaruh didalam program utama 
+
+// int main(){
+// 	const ____
+// }
+
+//OPERASI ARITMATIKA DI BAHASA PEMROGRAMAN C
+//Operasi Aritamtika adalah operasi perhitungan dasar yang melibatkan angka
+//Operator Aritmatika = (+,-,/,*)
+// Penjumlahan
+// Pengurangan
+// Perkalian
+// Pembagian
+
+//Mari kita coba 
+
+// #include <stdio.h>
+
+// int main()
+// {
+// 	int a = 10;
+// 	int b = 5;
+// 	int total;
+
+// 	puts("Nilai a = 10 dan Nilai b = 5");
+// 	printf("Hasil Penjumlahan a dan b = %d \n", total = a + b);
+// 	printf("Hasil Pengurangan a dan b = %d \n", total = a - b);
+// 	printf("Hasil Perkalian a dan b = %d \n", total = a * b);
+// 	printf("Hasil Pembagian a dan b = %d \n", total = a / b);
+// }
+
+//Selanjutnya compile dan jalankan program
+
+/*
+Nilai a = 10 dan Nilai b = 5
+Hasil Penjumlahan a dan b = 15 
+Hasil Pengurangan a dan b = 5 
+Hasil Perkalian a dan b = 50 
+Hasil Pembagian a dan b = 2 
+*/
+
+//Operasi Boolean
+//Boolean adalah tipe data yang hanya memiliki 2 nilai yaitu TRUE dan FALSE
+//Bagaimana Penggunaannya? 
+
+/*#include <stdio.h>
+
+int main()
+{
+	int TRUE = 1;
+	int FALSE = 0;
+
+	printf("Hasil TRUE and FALSE adalah %d \n", TRUE && FALSE);
+	printf("Hasil FALSE and TRUE adalah %d \n", FALSE && TRUE);
+	printf("Hasil TRUE and TRUE adalah %d \n", TRUE && TRUE);
+	printf("Hasil FALSE and FALSE adalah %d \n", FALSE && FALSE);
+	printf("Hasil TRUE OR FALSE adalah %d \n", TRUE || FALSE);
+	printf("Hasil FALSE OR TRUE adalah %d \n", FALSE || TRUE);
+	printf("Hasil TRUE OR TRUE adalah %d \n", TRUE && TRUE);
+	printf("Hasil FALSE OR FALSE adalah %d \n", FALSE && FALSE);
+
+	return 0;
+}*/
+
+// #include <stdio.h>
+
+// int main()
+// {
+//   int i;
+  
+//   for(i = 1; i<6; i++){
+//     printf("Perulangan For \n");
+//   }
+  
+//   return 0;
+// }
+
+// for(awal; kondisi saat perulangan; increment / decrement)
+
+
+
+
+//Perulangan
+// adalah fungsi dalam bahasa pemrograman untuk mengulang kode dari baris tertentu
+// sampai syarat terpenuhi
+
+//perulangan sendiri dalam bahasa pemrograman C ada 3 :
+//1. for
+//2. while
+//3. do while
+
+//kali ini perulangan for yang akan dibahas
+
+//pertama buat struktur program c dahulu
+// buat variabel dahulu
+
+// #include <stdio.h> //jangan lupa file headernya
+
+// int main()
+// {
+// 	int a;
+// 	for(a = 1; a<5; a++){
+// 		printf("Ini Adalah Perulangan FOR \n");
+// 	}
+
+// 	return 0;
+// }
+
+// Struktur Perulangan For (For Looping) :
+/*
+1.start (awalan nilai)
+2. kondisi proses perulangan
+3. increment (nilai akan bertambah 1) atau decrement (nilai akan berkurang 1)*/
+
+//sekarang coba compile dan jalankan program
+//Program akan berulang hingga nilai kurang dari 5
+// dan ketika sampai nilai kelima maka akan berhenti
+//1-2-3-4
+
+//Webinar Seminar - How to Build Startup College
+// Keuangan :
+// Fixed cost
+// variable cost
+// Total cost
+// rencana pemasukan
+// Pay back period
+// NPV
+// Net present value
