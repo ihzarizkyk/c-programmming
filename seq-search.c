@@ -28,6 +28,13 @@ int main(void)
 }
 
 /*
+
+Search adalah salah satu algoritma yang akan 
+sering digunakan dalam problem solving, 
+maka salah satu modal yang diperlukan adalah searching. Pada hakekatnya komputer adalah tempat menyimpan, dan kita membutuhkan untuk mencari apa yang sudah disimpan. Nilai-nilai yang disimpan dapat diorganisasi dalam struktur data yang lebih rumit dari tabel, dan algoritma yang diimplementasi juga lebih optimal. Untuk mendapatkan gambaran algoritma yang menggunakan struktur data dan teknik yang lebih sulit, Anda dapat mulai membaca 
+https://en.wikipedia.org/wiki/Search_algorithm.
+
+---------
 OUTPUT :
 
 Index bernilai X = 7
