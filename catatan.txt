@@ -156,12 +156,13 @@ int main()
 // dan ketika sampai nilai kelima maka akan berhenti
 //1-2-3-4
 
-//Webinar Seminar - How to Build Startup College
-// Keuangan :
-// Fixed cost
-// variable cost
-// Total cost
-// rencana pemasukan
-// Pay back period
-// NPV
-// Net present value
+// Subprogram
+
+Subprogram adalah modul program yang dapat dipanggil oleh sebuah program, sehingga program pemakai (yang memanggil) dapat memanfaatkan tanpa mengetahui detail dari instruksi dalam modul tersebut. Jadi, modul program merupakan abstraksi dari suatu proses komputasi yang dijelaskan spesifikasinya.
+
+- Fungsi melakukan komputasi dan mengirimkan hasil komputasi. Komputasinya ditulis sebagai “algoritma” pada badan fungsi, dan dilakukan dengan memakai nilai paramater yang disalin sebelum komputasi, sehingga fungsi tidak akan pernah mengubah nilai parameter.
+
+- Prosedur melakukan komputasi dengan mengubah “state”, yaitu state dari variabel (nilai), maupun state dari parameter. Akibatnya, prosedur dapat mengubah nilai parameter.
+
+Sebuah program utama dalam bahasa C juga merupakan sebuah fungsi, yang namanya khusus yaitu main. Contoh program halo.c adalah program utama dalam bentuk "fungsi" yang mengirimkan sebuah nilai integer dengan instruksi return 0; sedangkan halo1.c adalah program utama dalam bentuk “prosedur” karena tidak mengembalikan/mengirimkan nilai, sehingga nilai yang dikirimkan oleh main diberi kode void.
+
