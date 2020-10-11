@@ -166,3 +166,18 @@ Subprogram adalah modul program yang dapat dipanggil oleh sebuah program, sehing
 
 Sebuah program utama dalam bahasa C juga merupakan sebuah fungsi, yang namanya khusus yaitu main. Contoh program halo.c adalah program utama dalam bentuk "fungsi" yang mengirimkan sebuah nilai integer dengan instruksi return 0; sedangkan halo1.c adalah program utama dalam bentuk “prosedur” karena tidak mengembalikan/mengirimkan nilai, sehingga nilai yang dikirimkan oleh main diberi kode void.
 
+// Fungsi
+
+Sebuah fungsi terdiri dari komponen-komponen sebagai berikut:
+
+1) Nama fungsi, akan dipakai untuk “memanggil” fungsi tersebut jika diperlukan.
+2) Type kembalian, yang akan dipakai sebagai “kontrak” antara pemanggil dan fungsi.
+3) Parameter (tidak harus ada), yang menjadi “modal” dari fungsi untuk melakukan komputasi.
+4) Badan fungsi, yaitu deretan instruksi yang akan dieksekusi saat fungsi dipakai.
+
+
+// Prosedur
+
+Konsep prosedur adalah konsep yang ada pada paradigma pemrograman prosedural. Berbeda dengan fungsi yang melakukan komputasi dan mengirimkan nilai sesuai type kembalian, sebuah prosedur akan "dipanggil" dan dijalankan sebagai potongan program yang tidak akan mengganggu state program [state program dinyatakan sebagai nilai dari variabel pada program pemanggil].
+
+Karena bahasa C hanya mengenal fungsi sebagai bentuk sintaktikal, prosedur dalam bahasa C diimplementasi sebagai fungsi, dengan type kembalian void. 
